@@ -4,6 +4,7 @@ import java.util.*;
 
 
 public class HomeWork {
+    public static final int CAPACITY = 1 << 4;
 
     /**
      * <h1>Задание 1.</h1>
@@ -11,7 +12,7 @@ public class HomeWork {
      * Реализации очередей из стандартной библиотеки не используем.
      */
     public TicketManager managerFabric() {
-        return null;
+        return new TicketManagerImpl(CAPACITY);
     }
 
 

@@ -20,4 +20,6 @@ public interface TicketManager {
      * @return
      */
     Ticket next();
+
+    String print();
 }
